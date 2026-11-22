@@ -21,6 +21,8 @@ Recursion/
 │   │   ├── 03_reverse_in_groups.py
 │   │   ├── 03_leaders_in_array.py
 │   │   ├── leaders_in_array.py
+│   │   ├── missing_number.py
+│   │   ├── acp_missing_number.py
 │   │   └── acp_rotate_my_scores.py
 │   ├── Lesson_03_Array_Problems_2/
 │   │   ├── 01_max_profit.py
@@ -102,6 +104,7 @@ Recursion/
 | `02_left_rotate.py` | Activity 2 (Left Rotate / Array Rotate) | Rotates an array to the left by $n$ positions using slice partitioning `arr[n:] + arr[:n]` with a modulo guard. |
 | `03_reverse_in_groups.py` | Activity (Reverse in Groups) | Reverses chunks of $k$ elements in place using `arr[i:i+n][::-1]`. |
 | `03_leaders_in_array.py` / `leaders_in_array.py` | Activity 3 (Leaders in Array) | Right-to-left scan tracking `max_right` to find all elements strictly greater than all elements to their right. |
+| `missing_number.py` / `acp_missing_number.py` | ACP Project (Missing Number) | Finds missing number in $1 \dots n$ array via sum formula $\frac{n(n+1)}{2} - \sum \text{arr}$ and XOR. |
 | `acp_rotate_my_scores.py` | ACP Project (Rotate My Scores) | Two-pointer swap, group reverse with `min()`, left rotate by 1 and $n$, and right-to-left leaders scan. |
 
 ### Lesson 3: Array Problems 2 (`Array/Lesson_03_Array_Problems_2/`)
@@ -196,6 +199,7 @@ python Array/Lesson_02_Array_Problems_1/01_two_pointer_reverse.py
 python Array/Lesson_02_Array_Problems_1/02_left_rotate.py
 python Array/Lesson_02_Array_Problems_1/03_reverse_in_groups.py
 python Array/Lesson_02_Array_Problems_1/leaders_in_array.py
+python Array/Lesson_02_Array_Problems_1/missing_number.py
 python Array/Lesson_02_Array_Problems_1/acp_rotate_my_scores.py
 
 # Lesson 3
