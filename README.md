@@ -33,6 +33,11 @@ Recursion/
 │   ├── 03_power_of_4.py
 │   └── acp_flip_it_with_recursion.py
 │
+├── Lesson_05_Recursive_Problems_2/
+│   ├── 01_stair_climb.py
+│   ├── 02_balanced_parens.py
+│   └── acp_stair_climb_and_brace_builder.py
+│
 └── README.md
 ```
 
@@ -42,7 +47,7 @@ Recursion/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| `01_sum_down.py` | Activity 1 | Introduces `sum_down(n) = n + sum_down(n - 1)`, the base case (`n == 0`), and build/unwind phases. |
+| `01_sum_down.py` | Activity 1 | Introduces `sum_down(n) = n + sum_down(n - 1)`, base case (`n == 0`), and build/unwind phases. |
 | `02_factorial.py` | Activity 2 | Implements recursive factorial $n! = n \times (n-1)!$ with base case $0! = 1$. |
 | `03_stack_overflow.py` | Activity 3 | Demonstrates call stack depth, stack frames, and Python's default recursion limit (1000). |
 | `acp_countdown_timer.py` | ACP Project | **My Countdown Timer Challenge** (`ACPDSCM6L1`): Recursive countdown, count up, build & unwind, and factorial. |
@@ -82,6 +87,16 @@ Recursion/
 
 ---
 
+## Lesson 5: Recursive Problems 2
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_stair_climb.py` | Activity 1 (Stair Climb) | Counts ways to climb $n$ stairs using 1-step or 2-step choices via branching recursion `ways(n-1) + ways(n-2)`. |
+| `02_balanced_parens.py` | Activity 2 (Balanced Parentheses) | Recursive branching to count all valid parentheses/brace combinations with $l > r$ and $l < n$ guards. |
+| `acp_stair_climb_and_brace_builder.py` | ACP Project | **Stair Climb and Brace Builder** (`ACPDSCM6L5`): Stair climb solution, call tree trace with indentation, and generating all balanced brace permutations. |
+
+---
+
 ## How to Run
 
 Navigate into any lesson folder and run the scripts:
@@ -116,4 +131,11 @@ python Lesson_04_Recursive_Problems_1/01_digit_flip.py
 python Lesson_04_Recursive_Problems_1/02_flip_name.py
 python Lesson_04_Recursive_Problems_1/03_power_of_4.py
 python Lesson_04_Recursive_Problems_1/acp_flip_it_with_recursion.py
+```
+
+### Lesson 5
+```bash
+python Lesson_05_Recursive_Problems_2/01_stair_climb.py
+python Lesson_05_Recursive_Problems_2/02_balanced_parens.py
+python Lesson_05_Recursive_Problems_2/acp_stair_climb_and_brace_builder.py
 ```
