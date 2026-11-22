@@ -19,6 +19,8 @@ Recursion/
 │   │   ├── 01_two_pointer_reverse.py
 │   │   ├── 02_left_rotate.py
 │   │   ├── 03_reverse_in_groups.py
+│   │   ├── 03_leaders_in_array.py
+│   │   ├── leaders_in_array.py
 │   │   └── acp_rotate_my_scores.py
 │   ├── Lesson_03_Array_Problems_2/
 │   │   ├── 01_max_profit.py
@@ -97,8 +99,9 @@ Recursion/
 | File | Type | Description |
 | :--- | :--- | :--- |
 | `01_two_pointer_reverse.py` | Activity 1 (Two-pointer Reverse) | Reverses `[1..n]` using inward two-pointer swapping (`while i < j`). |
-| `02_left_rotate.py` | Activity 2 (Left Rotate) | Rotates an array to the left by $n$ positions using slice partitioning `arr[n:] + arr[:n]` with a modulo guard. |
-| `03_reverse_in_groups.py` | Activity 3 (Reverse in Groups) | Reverses chunks of $k$ elements in place using `arr[i:i+n][::-1]`. |
+| `02_left_rotate.py` | Activity 2 (Left Rotate / Array Rotate) | Rotates an array to the left by $n$ positions using slice partitioning `arr[n:] + arr[:n]` with a modulo guard. |
+| `03_reverse_in_groups.py` | Activity (Reverse in Groups) | Reverses chunks of $k$ elements in place using `arr[i:i+n][::-1]`. |
+| `03_leaders_in_array.py` / `leaders_in_array.py` | Activity 3 (Leaders in Array) | Right-to-left scan tracking `max_right` to find all elements strictly greater than all elements to their right. |
 | `acp_rotate_my_scores.py` | ACP Project (Rotate My Scores) | Two-pointer swap, group reverse with `min()`, left rotate by 1 and $n$, and right-to-left leaders scan. |
 
 ### Lesson 3: Array Problems 2 (`Array/Lesson_03_Array_Problems_2/`)
@@ -192,6 +195,7 @@ python Array/Lesson_01_Introduction_to_Arrays/reverse_array.py
 python Array/Lesson_02_Array_Problems_1/01_two_pointer_reverse.py
 python Array/Lesson_02_Array_Problems_1/02_left_rotate.py
 python Array/Lesson_02_Array_Problems_1/03_reverse_in_groups.py
+python Array/Lesson_02_Array_Problems_1/leaders_in_array.py
 python Array/Lesson_02_Array_Problems_1/acp_rotate_my_scores.py
 
 # Lesson 3
