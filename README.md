@@ -27,6 +27,12 @@ Recursion/
 │   ├── 03_list_max.py
 │   └── acp_score_list_explorer.py
 │
+├── Lesson_04_Recursive_Problems_1/
+│   ├── 01_digit_flip.py
+│   ├── 02_flip_name.py
+│   ├── 03_power_of_4.py
+│   └── acp_flip_it_with_recursion.py
+│
 └── README.md
 ```
 
@@ -65,6 +71,17 @@ Recursion/
 
 ---
 
+## Lesson 4: Recursive Problems 1
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_digit_flip.py` | Activity 1 (Flip Number) | Reverses an integer recursively using `% 10` (peel last digit) and `// 10` (recurse on remaining). |
+| `02_flip_name.py` | Activity 2 (Flip a Name) | Reverses a string using head recursion: `flip_name(s[1:]) + s[0]` until base case `len(s) == 1`. |
+| `03_power_of_4.py` | Activity 3 (Power of 4 Check) | Recursively checks powers of 4 with two stopping conditions: YES stop (`n == 1`) and NO stop (remainder / non-positive). |
+| `acp_flip_it_with_recursion.py` | ACP Project | **Flip It with Recursion** (`ACPDSCM6L4`): Digit extraction, recursive number reversal, string reversal, and power-of-4 verification. |
+
+---
+
 ## How to Run
 
 Navigate into any lesson folder and run the scripts:
@@ -91,4 +108,12 @@ python Lesson_03_Recursion_on_List/01_head_tail.py
 python Lesson_03_Recursion_on_List/02_list_sum.py
 python Lesson_03_Recursion_on_List/03_list_max.py
 python Lesson_03_Recursion_on_List/acp_score_list_explorer.py
+```
+
+### Lesson 4
+```bash
+python Lesson_04_Recursive_Problems_1/01_digit_flip.py
+python Lesson_04_Recursive_Problems_1/02_flip_name.py
+python Lesson_04_Recursive_Problems_1/03_power_of_4.py
+python Lesson_04_Recursive_Problems_1/acp_flip_it_with_recursion.py
 ```
