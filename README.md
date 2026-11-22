@@ -20,11 +20,16 @@ Recursion/
 │   │   ├── 02_left_rotate.py
 │   │   ├── 03_reverse_in_groups.py
 │   │   └── acp_rotate_my_scores.py
-│   └── Lesson_03_Array_Problems_2/
-│       ├── 01_max_profit.py
-│       ├── 02_total_profit.py
-│       ├── 03_rainwater.py
-│       └── acp_tallest_bar_scanner.py
+│   ├── Lesson_03_Array_Problems_2/
+│   │   ├── 01_max_profit.py
+│   │   ├── 02_total_profit.py
+│   │   ├── 03_rainwater.py
+│   │   └── acp_tallest_bar_scanner.py
+│   └── Lesson_04_Array_Problems_3/
+│       ├── 01_max_ones.py
+│       ├── 02_move_zeros.py
+│       ├── 03_max_zeros.py
+│       └── acp_binary_streak_tracker.py
 │
 ├── Lesson_01_Introduction_to_Recursion/
 │   ├── 01_sum_down.py
@@ -95,6 +100,15 @@ Recursion/
 | `03_rainwater.py` | Activity 3 (Rainwater Trapped) | Calculates rainwater trapped between bars using `min(left_max, right_max) - height`. |
 | `acp_tallest_bar_scanner.py` | ACP Project (Tallest Bar Scanner) | Full implementation of single buy-sell, profit accumulation, prefix max (left tallest), suffix max (right tallest), and rainwater trapping. |
 
+### Lesson 4: Array Problems 3 (`Array/Lesson_04_Array_Problems_3/`)
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_max_ones.py` | Activity 1 (Max Consecutive Ones) | Longest continuous run of 1s using streak counter with reset on 0 and best tracker. |
+| `02_move_zeros.py` | Activity 2 (Move Zeros) | Same-direction write pointer collects non-zeros; remaining slots filled with zeros. |
+| `03_max_zeros.py` | Activity 3 (Max Consecutive Zeros) | Longest run of 0s using streak counter with reset on 1 and best tracker. |
+| `acp_binary_streak_tracker.py` | ACP Project (Binary Streak Tracker) | Binary array analysis, max 1s streak, max 0s streak, generic streak tracker, and in-place move zeros. |
+
 ---
 
 ## Recursion Module
@@ -157,4 +171,10 @@ python Array/Lesson_03_Array_Problems_2/01_max_profit.py
 python Array/Lesson_03_Array_Problems_2/02_total_profit.py
 python Array/Lesson_03_Array_Problems_2/03_rainwater.py
 python Array/Lesson_03_Array_Problems_2/acp_tallest_bar_scanner.py
+
+# Lesson 4
+python Array/Lesson_04_Array_Problems_3/01_max_ones.py
+python Array/Lesson_04_Array_Problems_3/02_move_zeros.py
+python Array/Lesson_04_Array_Problems_3/03_max_zeros.py
+python Array/Lesson_04_Array_Problems_3/acp_binary_streak_tracker.py
 ```
