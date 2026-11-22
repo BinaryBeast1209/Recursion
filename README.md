@@ -45,7 +45,10 @@ Recursion/
 │   │   └── acp_binary_streak_tracker.py
 │   ├── Lesson_05_Kadane_Algorithm/
 │   │   ├── 01_max_mid.py
+│   │   ├── kadane_algo.py
 │   │   ├── 02_max_front.py
+│   │   ├── max_circular_sum.py
+│   │   ├── 02_max_circular_sum.py
 │   │   ├── 03_max_after.py
 │   │   └── acp_array_energy_tracker.py
 │   └── Lesson_06_Array_Problems_4/
@@ -140,9 +143,10 @@ Recursion/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| `01_max_mid.py` | Activity 1 (Peak in Middle) | Maximum subarray sum in `[-1, n, -1]`; starting negative resets, locking in peak $n$. |
-| `02_max_front.py` | Activity 2 (Front Loaded) | Maximum subarray sum in `[1]*n + [-1]`; tracks sum through positive prefix while best holds. |
-| `03_max_after.py` | Activity 3 (Big Reset) | Maximum subarray sum in `[-n] + [1]*n`; large negative triggers immediate reset, then sums $n$ ones. |
+| `01_max_mid.py` / `kadane_algo.py` | Activity 1 (Peak in Middle / KadaneAlgo) | Maximum subarray sum using running sum with reset and max-so-far tracker. |
+| `02_max_front.py` | Activity (Front Loaded) | Maximum subarray sum in `[1]*n + [-1]`; tracks sum through positive prefix while best holds. |
+| `max_circular_sum.py` / `02_max_circular_sum.py` | Activity 2 (MaxCircularSum) | Finds max circular subarray sum using `max(Kadane(arr), Total_Sum - MinSubarray(arr))`. |
+| `03_max_after.py` | Activity 3 (Big Reset) | Maximum subarray sum in `[-n] + [1]*n`; large negative triggers immediate reset. |
 | `acp_array_energy_tracker.py` | ACP Project (Array Energy Tracker) | Subarray exploration, Kadane's algorithm, subarray slice tracking with indices, and diverse test cases. |
 
 ### Lesson 6: Array Problems 4 (`Array/Lesson_06_Array_Problems_4/`)
@@ -229,6 +233,7 @@ python Array/Lesson_04_Array_Problems_3/acp_binary_streak_tracker.py
 
 # Lesson 5
 python Array/Lesson_05_Kadane_Algorithm/01_max_mid.py
+python Array/Lesson_05_Kadane_Algorithm/max_circular_sum.py
 python Array/Lesson_05_Kadane_Algorithm/02_max_front.py
 python Array/Lesson_05_Kadane_Algorithm/03_max_after.py
 python Array/Lesson_05_Kadane_Algorithm/acp_array_energy_tracker.py
