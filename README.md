@@ -1,46 +1,69 @@
-# Introduction to Recursion
+# Recursion Repository
 
-This repository contains Python activities and the After-Class Project (ACP) for **Introduction to Recursion**.
-
-## Repository Structure
-
-| File | Description | Topics Covered |
-| :--- | :--- | :--- |
-| `01_sum_down.py` | Activity 1: Recursion + Base Case + Build & Unwind | What is Recursion, The Base Case, Build and Unwind |
-| `02_factorial.py` | Activity 2: Counting with Recursion + Factorial | Recursive factorial, $0! = 1$ base case |
-| `03_stack_overflow.py` | Activity 3: Call Stack & Stack Overflow | Stack frames, recursion limits, safe depths |
-| `acp_countdown_timer.py` | After-Class Project: My Countdown Timer Challenge | Countdown, count-up, build & unwind, factorial, stack safety |
+This repository contains Python activities, exercises, and After-Class Projects (ACP) for the **Recursion** module.
 
 ---
 
-## Activities Overview
+## Repository Structure
 
-### 1. `01_sum_down.py` (Activity 1)
-- Introduces recursive function `sum_down(n) = n + sum_down(n - 1)`.
-- Identifies the base case `n == 0: return 0`.
-- Demonstrates build and unwind phases.
+```
+Recursion/
+│
+├── Lesson_01_Introduction_to_Recursion/
+│   ├── 01_sum_down.py
+│   ├── 02_factorial.py
+│   ├── 03_stack_overflow.py
+│   └── acp_countdown_timer.py
+│
+├── Lesson_02_Types_of_Recursion/
+│   ├── 01_linear_tail.py
+│   ├── 02_head_increasing.py
+│   ├── 03_tree_recursion.py
+│   └── acp_stack_frame_visualizer.py
+│
+└── README.md
+```
 
-### 2. `02_factorial.py` (Activity 2)
-- Calculates factorial recursively using $n! = n \times (n-1)!$.
-- Implements base case $0! = 1$.
+---
 
-### 3. `03_stack_overflow.py` (Activity 3)
-- Shows how each recursive call places a frame on Python's call stack.
-- Explains the default 1000-frame recursion limit and why a base case is vital to avoid `RecursionError`.
+## Lesson 1: Introduction to Recursion
 
-### 4. `acp_countdown_timer.py` (After-Class Project: My Countdown Timer Challenge)
-- Project code: `ACPDSCM6L1`
-- Includes recursive countdown (`countdown(5)`), build and unwind demo (`build_and_unwind(3)`), count up (`count_up(1)`), factorial (`factorial(5)`), and stack overflow safety discussion (`unsafe_countdown`).
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_sum_down.py` | Activity 1 | Introduces `sum_down(n) = n + sum_down(n - 1)`, the base case (`n == 0`), and build/unwind phases. |
+| `02_factorial.py` | Activity 2 | Implements recursive factorial $n! = n \times (n-1)!$ with base case $0! = 1$. |
+| `03_stack_overflow.py` | Activity 3 | Demonstrates call stack depth, stack frames, and Python's default recursion limit (1000). |
+| `acp_countdown_timer.py` | ACP Project | **My Countdown Timer Challenge** (`ACPDSCM6L1`): Recursive countdown, count up, build & unwind, and factorial. |
+
+---
+
+## Lesson 2: Types of Recursion
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_linear_tail.py` | Activity 1 (Tail Recursion) | Tail recursion using an accumulator (`tail_sum(n, acc)`); work is performed before the recursive call. |
+| `02_head_increasing.py` | Activity 2 (Bounce) | Head recursion (`mirror(n)`); recursive call occurs first and work happens during stack unwinding. |
+| `03_tree_recursion.py` | Activity 3 (Fibonacci) | Tree recursion (`fib(n) = fib(n-1) + fib(n-2)`); two branching recursive calls per step. |
+| `acp_stack_frame_visualizer.py` | ACP Project | **Stack Frame Visualizer** (`ACPDSCM6L2`): Compares linear, tail, head, increasing-decreasing, and tree recursion patterns. |
 
 ---
 
 ## How to Run
 
-Run any file with Python:
+Navigate into any lesson folder and run the scripts:
 
+### Lesson 1
 ```bash
-python 01_sum_down.py
-python 02_factorial.py
-python 03_stack_overflow.py
-python acp_countdown_timer.py
+python Lesson_01_Introduction_to_Recursion/01_sum_down.py
+python Lesson_01_Introduction_to_Recursion/02_factorial.py
+python Lesson_01_Introduction_to_Recursion/03_stack_overflow.py
+python Lesson_01_Introduction_to_Recursion/acp_countdown_timer.py
+```
+
+### Lesson 2
+```bash
+python Lesson_02_Types_of_Recursion/01_linear_tail.py
+python Lesson_02_Types_of_Recursion/02_head_increasing.py
+python Lesson_02_Types_of_Recursion/03_tree_recursion.py
+python Lesson_02_Types_of_Recursion/acp_stack_frame_visualizer.py
 ```
