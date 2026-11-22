@@ -55,8 +55,13 @@ Recursion/
 │   │   └── acp_array_energy_tracker.py
 │   └── Lesson_06_Array_Problems_4/
 │       ├── 01_eq_mid.py
+│       ├── equilibrium_point.py
 │       ├── 02_eq_val.py
 │       ├── 03_win_sum.py
+│       ├── subarray_sum.py
+│       ├── 02_subarray_sum.py
+│       ├── minimum_flips.py
+│       ├── acp_minimum_flips.py
 │       └── acp_target_tracker_lab.py
 │
 ├── Lesson_01_Introduction_to_Recursion/
@@ -156,9 +161,10 @@ Recursion/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| `01_eq_mid.py` | Activity 1 (Equilibrium Index) | Finds index where left sum equals right sum using `sum(arr[:i]) == sum(arr[i+1:])`. |
-| `02_eq_val.py` | Activity 2 (Equilibrium Value) | Finds the value located at the equilibrium point in an array. |
-| `03_win_sum.py` | Activity 3 (Window Target Sum) | Finds the starting index of the first fixed-size window that sums to target. |
+| `01_eq_mid.py` / `equilibrium_point.py` | Activity 1 (Equilibrium Index / Equilibrium Point) | Finds index where left sum equals right sum using `sum(arr[:i]) == sum(arr[i+1:])`. |
+| `02_eq_val.py` | Activity (Equilibrium Value) | Finds the value located at the equilibrium point in an array. |
+| `subarray_sum.py` / `02_subarray_sum.py` / `03_win_sum.py` | Activity 2 (SubArraySum / Window Sum) | Variable-size sliding window & fixed-size window target sum matching. |
+| `minimum_flips.py` / `acp_minimum_flips.py` | ACP Project (Minimum Flips) | Minimum consecutive group flips to make binary array uniform in $O(n)$ time. |
 | `acp_target_tracker_lab.py` | ACP Project (Target Tracker Lab) | Slices and balance analysis, equilibrium index, equilibrium value, fixed-size window search, and $O(n)$ sliding window optimization. |
 
 ---
@@ -245,6 +251,7 @@ python Array/Lesson_05_Kadane_Algorithm/acp_array_energy_tracker.py
 # Lesson 6
 python Array/Lesson_06_Array_Problems_4/01_eq_mid.py
 python Array/Lesson_06_Array_Problems_4/02_eq_val.py
-python Array/Lesson_06_Array_Problems_4/03_win_sum.py
+python Array/Lesson_06_Array_Problems_4/subarray_sum.py
+python Array/Lesson_06_Array_Problems_4/minimum_flips.py
 python Array/Lesson_06_Array_Problems_4/acp_target_tracker_lab.py
 ```
