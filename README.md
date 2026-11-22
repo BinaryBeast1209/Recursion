@@ -38,6 +38,12 @@ Recursion/
 │   ├── 02_balanced_parens.py
 │   └── acp_stair_climb_and_brace_builder.py
 │
+├── Lesson_06_Recursive_Problems_3/
+│   ├── 01_tower_of_hanoi.py
+│   ├── 02_phone_keypad.py
+│   ├── 03_recursion_tree.py
+│   └── acp_keypad_word_generator.py
+│
 └── README.md
 ```
 
@@ -92,8 +98,19 @@ Recursion/
 | File | Type | Description |
 | :--- | :--- | :--- |
 | `01_stair_climb.py` | Activity 1 (Stair Climb) | Counts ways to climb $n$ stairs using 1-step or 2-step choices via branching recursion `ways(n-1) + ways(n-2)`. |
-| `02_balanced_parens.py` | Activity 2 (Balanced Parentheses) | Recursive branching to count all valid parentheses/brace combinations with $l > r$ and $l < n$ guards. |
+| `02_balanced_parens.py` | Activity 2 (Balanced Parentheses) | Recursive branching to count all valid parentheses/brace combinations with $l > r$ and $l < n$ rules. |
 | `acp_stair_climb_and_brace_builder.py` | ACP Project | **Stair Climb and Brace Builder** (`ACPDSCM6L5`): Stair climb solution, call tree trace with indentation, and generating all balanced brace permutations. |
+
+---
+
+## Lesson 6: Recursive Problems 3
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_tower_of_hanoi.py` | Activity 1 (Tower of Hanoi) | Calculates minimum moves to shift disks using $hanoi(n) = 2 \times hanoi(n-1) + 1$ ($2^n - 1$). |
+| `02_phone_keypad.py` | Activity 2 (Phone Keypad) | Counts all possible letter combinations for keypad digits via linear multiplication chain recursion. |
+| `03_recursion_tree.py` | Activity 3 (Recursion Trees) | Counts grid paths with branching recursion $paths(m-1, n) + paths(m, n-1)$, demonstrating recursion tree growth. |
+| `acp_keypad_word_generator.py` | ACP Project | **Keypad Word Generator** (`ACPDSCM6L6`): Tower of Hanoi step simulation, keypad combinations generation, and indented recursion tree trace. |
 
 ---
 
@@ -138,4 +155,12 @@ python Lesson_04_Recursive_Problems_1/acp_flip_it_with_recursion.py
 python Lesson_05_Recursive_Problems_2/01_stair_climb.py
 python Lesson_05_Recursive_Problems_2/02_balanced_parens.py
 python Lesson_05_Recursive_Problems_2/acp_stair_climb_and_brace_builder.py
+```
+
+### Lesson 6
+```bash
+python Lesson_06_Recursive_Problems_3/01_tower_of_hanoi.py
+python Lesson_06_Recursive_Problems_3/02_phone_keypad.py
+python Lesson_06_Recursive_Problems_3/03_recursion_tree.py
+python Lesson_06_Recursive_Problems_3/acp_keypad_word_generator.py
 ```
