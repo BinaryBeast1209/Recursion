@@ -15,11 +15,16 @@ Recursion/
 │   │   ├── 02_max_array_min.py
 │   │   ├── 03_second_largest_element.py
 │   │   └── reverse_array.py
-│   └── Lesson_02_Array_Problems_1/
-│       ├── 01_two_pointer_reverse.py
-│       ├── 02_left_rotate.py
-│       ├── 03_reverse_in_groups.py
-│       └── acp_rotate_my_scores.py
+│   ├── Lesson_02_Array_Problems_1/
+│   │   ├── 01_two_pointer_reverse.py
+│   │   ├── 02_left_rotate.py
+│   │   ├── 03_reverse_in_groups.py
+│   │   └── acp_rotate_my_scores.py
+│   └── Lesson_03_Array_Problems_2/
+│       ├── 01_max_profit.py
+│       ├── 02_total_profit.py
+│       ├── 03_rainwater.py
+│       └── acp_tallest_bar_scanner.py
 │
 ├── Lesson_01_Introduction_to_Recursion/
 │   ├── 01_sum_down.py
@@ -79,7 +84,16 @@ Recursion/
 | `01_two_pointer_reverse.py` | Activity 1 (Two-pointer Reverse) | Reverses `[1..n]` using inward two-pointer swapping (`while i < j`). |
 | `02_left_rotate.py` | Activity 2 (Left Rotate) | Rotates an array to the left by $n$ positions using slice partitioning `arr[n:] + arr[:n]` with a modulo guard. |
 | `03_reverse_in_groups.py` | Activity 3 (Reverse in Groups) | Reverses chunks of $k$ elements in place using `arr[i:i+n][::-1]`. |
-| `acp_rotate_my_scores.py` | ACP Project (Rotate My Scores) | Full implementation of two-pointer swap, group reverse with `min()`, left rotate by 1 and $n$, and right-to-left leaders scan. |
+| `acp_rotate_my_scores.py` | ACP Project (Rotate My Scores) | Two-pointer swap, group reverse with `min()`, left rotate by 1 and $n$, and right-to-left leaders scan. |
+
+### Lesson 3: Array Problems 2 (`Array/Lesson_03_Array_Problems_2/`)
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_max_profit.py` | Activity 1 (Stocks Buy-Sell) | Greedy single buy-sell profit by tracking the minimum price seen so far. |
+| `02_total_profit.py` | Activity 2 (Profit Accumulation) | Unlimited buy-sell profit by summing all positive consecutive price increases (upswings). |
+| `03_rainwater.py` | Activity 3 (Rainwater Trapped) | Calculates rainwater trapped between bars using `min(left_max, right_max) - height`. |
+| `acp_tallest_bar_scanner.py` | ACP Project (Tallest Bar Scanner) | Full implementation of single buy-sell, profit accumulation, prefix max (left tallest), suffix max (right tallest), and rainwater trapping. |
 
 ---
 
@@ -137,4 +151,10 @@ python Array/Lesson_02_Array_Problems_1/01_two_pointer_reverse.py
 python Array/Lesson_02_Array_Problems_1/02_left_rotate.py
 python Array/Lesson_02_Array_Problems_1/03_reverse_in_groups.py
 python Array/Lesson_02_Array_Problems_1/acp_rotate_my_scores.py
+
+# Lesson 3
+python Array/Lesson_03_Array_Problems_2/01_max_profit.py
+python Array/Lesson_03_Array_Problems_2/02_total_profit.py
+python Array/Lesson_03_Array_Problems_2/03_rainwater.py
+python Array/Lesson_03_Array_Problems_2/acp_tallest_bar_scanner.py
 ```
