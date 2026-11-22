@@ -50,6 +50,8 @@ Recursion/
 │   │   ├── max_circular_sum.py
 │   │   ├── 02_max_circular_sum.py
 │   │   ├── 03_max_after.py
+│   │   ├── longest_odd_even_subarray.py
+│   │   ├── acp_longest_odd_even_subarray.py
 │   │   └── acp_array_energy_tracker.py
 │   └── Lesson_06_Array_Problems_4/
 │       ├── 01_eq_mid.py
@@ -147,6 +149,7 @@ Recursion/
 | `02_max_front.py` | Activity (Front Loaded) | Maximum subarray sum in `[1]*n + [-1]`; tracks sum through positive prefix while best holds. |
 | `max_circular_sum.py` / `02_max_circular_sum.py` | Activity 2 (MaxCircularSum) | Finds max circular subarray sum using `max(Kadane(arr), Total_Sum - MinSubarray(arr))`. |
 | `03_max_after.py` | Activity 3 (Big Reset) | Maximum subarray sum in `[-n] + [1]*n`; large negative triggers immediate reset. |
+| `longest_odd_even_subarray.py` / `acp_longest_odd_even_subarray.py` | ACP Project (Longest Odd Even Subarray) | Kadane-style streak tracking the longest alternating odd/even subarray in $O(n)$ time. |
 | `acp_array_energy_tracker.py` | ACP Project (Array Energy Tracker) | Subarray exploration, Kadane's algorithm, subarray slice tracking with indices, and diverse test cases. |
 
 ### Lesson 6: Array Problems 4 (`Array/Lesson_06_Array_Problems_4/`)
@@ -236,6 +239,7 @@ python Array/Lesson_05_Kadane_Algorithm/01_max_mid.py
 python Array/Lesson_05_Kadane_Algorithm/max_circular_sum.py
 python Array/Lesson_05_Kadane_Algorithm/02_max_front.py
 python Array/Lesson_05_Kadane_Algorithm/03_max_after.py
+python Array/Lesson_05_Kadane_Algorithm/longest_odd_even_subarray.py
 python Array/Lesson_05_Kadane_Algorithm/acp_array_energy_tracker.py
 
 # Lesson 6
