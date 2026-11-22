@@ -21,6 +21,12 @@ Recursion/
 │   ├── 03_tree_recursion.py
 │   └── acp_stack_frame_visualizer.py
 │
+├── Lesson_03_Recursion_on_List/
+│   ├── 01_head_tail.py
+│   ├── 02_list_sum.py
+│   ├── 03_list_max.py
+│   └── acp_score_list_explorer.py
+│
 └── README.md
 ```
 
@@ -48,6 +54,17 @@ Recursion/
 
 ---
 
+## Lesson 3: Recursion on List
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_head_tail.py` | Activity 1 (Head-Tail) | Demonstrates the head-tail pattern (`lst[0]` and `lst[1:]`) and empty list base case `[]`. |
+| `02_list_sum.py` | Activity 2 (List Sum) | Adds elements of a list recursively: `head + list_sum(tail)` until empty list base case returns 0. |
+| `03_list_max.py` | Activity 3 (List Max) | Finds maximum element recursively: compares head with recursive max of tail; base case is single-element list. |
+| `acp_score_list_explorer.py` | ACP Project | **Score List Explorer** (`ACPDSCM6L3`): Head-tail demo, list shrinking, recursive sorted check, recursive sum, and recursive max. |
+
+---
+
 ## How to Run
 
 Navigate into any lesson folder and run the scripts:
@@ -66,4 +83,12 @@ python Lesson_02_Types_of_Recursion/01_linear_tail.py
 python Lesson_02_Types_of_Recursion/02_head_increasing.py
 python Lesson_02_Types_of_Recursion/03_tree_recursion.py
 python Lesson_02_Types_of_Recursion/acp_stack_frame_visualizer.py
+```
+
+### Lesson 3
+```bash
+python Lesson_03_Recursion_on_List/01_head_tail.py
+python Lesson_03_Recursion_on_List/02_list_sum.py
+python Lesson_03_Recursion_on_List/03_list_max.py
+python Lesson_03_Recursion_on_List/acp_score_list_explorer.py
 ```
