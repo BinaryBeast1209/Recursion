@@ -26,8 +26,13 @@ Recursion/
 │   │   └── acp_rotate_my_scores.py
 │   ├── Lesson_03_Array_Problems_2/
 │   │   ├── 01_max_profit.py
+│   │   ├── stocks_buy_sell.py
 │   │   ├── 02_total_profit.py
 │   │   ├── 03_rainwater.py
+│   │   ├── rain_water_trapping.py
+│   │   ├── 02_rain_water_trapping.py
+│   │   ├── max_difference.py
+│   │   ├── acp_max_difference.py
 │   │   └── acp_tallest_bar_scanner.py
 │   ├── Lesson_04_Array_Problems_3/
 │   │   ├── 01_max_ones.py
@@ -111,10 +116,11 @@ Recursion/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| `01_max_profit.py` | Activity 1 (Stocks Buy-Sell) | Greedy single buy-sell profit by tracking the minimum price seen so far. |
+| `01_max_profit.py` / `stocks_buy_sell.py` | Activity 1 (Stocks Buy-Sell) | Greedy single buy-sell profit by tracking the minimum price seen so far. |
 | `02_total_profit.py` | Activity 2 (Profit Accumulation) | Unlimited buy-sell profit by summing all positive consecutive price increases (upswings). |
-| `03_rainwater.py` | Activity 3 (Rainwater Trapped) | Calculates rainwater trapped between bars using `min(left_max, right_max) - height`. |
-| `acp_tallest_bar_scanner.py` | ACP Project (Tallest Bar Scanner) | Full implementation of single buy-sell, profit accumulation, prefix max (left tallest), suffix max (right tallest), and rainwater trapping. |
+| `03_rainwater.py` / `rain_water_trapping.py` | Activity 3 / Activity 2 (Rainwater Trapped) | Calculates rainwater trapped between bars using `min(left_max, right_max) - height`. |
+| `max_difference.py` / `acp_max_difference.py` | ACP Project (Max Difference) | Optimal $O(n)$ single-pass solution to find maximum `arr[j] - arr[i]` ($j > i$). |
+| `acp_tallest_bar_scanner.py` | ACP Project (Tallest Bar Scanner) | Full implementation of single buy-sell, profit accumulation, prefix max, suffix max, and rainwater trapping. |
 
 ### Lesson 4: Array Problems 3 (`Array/Lesson_04_Array_Problems_3/`)
 
@@ -206,6 +212,7 @@ python Array/Lesson_02_Array_Problems_1/acp_rotate_my_scores.py
 python Array/Lesson_03_Array_Problems_2/01_max_profit.py
 python Array/Lesson_03_Array_Problems_2/02_total_profit.py
 python Array/Lesson_03_Array_Problems_2/03_rainwater.py
+python Array/Lesson_03_Array_Problems_2/max_difference.py
 python Array/Lesson_03_Array_Problems_2/acp_tallest_bar_scanner.py
 
 # Lesson 4
