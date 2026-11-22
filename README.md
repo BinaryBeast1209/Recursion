@@ -1,6 +1,6 @@
-# Recursion Repository
+# Recursion & Arrays Repository
 
-This repository contains Python activities, exercises, and After-Class Projects (ACP) for the **Recursion** module.
+This repository contains Python activities, exercises, and After-Class Projects (ACP) for both the **Recursion** and **Array** modules.
 
 ---
 
@@ -8,6 +8,12 @@ This repository contains Python activities, exercises, and After-Class Projects 
 
 ```
 Recursion/
+│
+├── Array/
+│   ├── 01_mean_array_median.py
+│   ├── 02_max_array_min.py
+│   ├── 03_second_largest_element.py
+│   └── reverse_array.py
 │
 ├── Lesson_01_Introduction_to_Recursion/
 │   ├── 01_sum_down.py
@@ -46,6 +52,17 @@ Recursion/
 │
 └── README.md
 ```
+
+---
+
+## Array Module (`Array/`)
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_mean_array_median.py` | Activity 1 (MeanArrayMedian) | Computes the mean (average) and median of an array. |
+| `02_max_array_min.py` | Activity 2 (MaxArrayMin) | Finds the minimum and maximum elements of an array using comparisons. |
+| `03_second_largest_element.py` | Activity 3 (SecondLargestElement) | Finds the second largest element in an array with single-pass comparison. |
+| `reverse_array.py` | ACP Project (ArrayReverse) | In-place array reversal using two-pointer swap and temporary variable, plus palindrome check. |
 
 ---
 
@@ -116,51 +133,10 @@ Recursion/
 
 ## How to Run
 
-Navigate into any lesson folder and run the scripts:
-
-### Lesson 1
+### Array Module
 ```bash
-python Lesson_01_Introduction_to_Recursion/01_sum_down.py
-python Lesson_01_Introduction_to_Recursion/02_factorial.py
-python Lesson_01_Introduction_to_Recursion/03_stack_overflow.py
-python Lesson_01_Introduction_to_Recursion/acp_countdown_timer.py
-```
-
-### Lesson 2
-```bash
-python Lesson_02_Types_of_Recursion/01_linear_tail.py
-python Lesson_02_Types_of_Recursion/02_head_increasing.py
-python Lesson_02_Types_of_Recursion/03_tree_recursion.py
-python Lesson_02_Types_of_Recursion/acp_stack_frame_visualizer.py
-```
-
-### Lesson 3
-```bash
-python Lesson_03_Recursion_on_List/01_head_tail.py
-python Lesson_03_Recursion_on_List/02_list_sum.py
-python Lesson_03_Recursion_on_List/03_list_max.py
-python Lesson_03_Recursion_on_List/acp_score_list_explorer.py
-```
-
-### Lesson 4
-```bash
-python Lesson_04_Recursive_Problems_1/01_digit_flip.py
-python Lesson_04_Recursive_Problems_1/02_flip_name.py
-python Lesson_04_Recursive_Problems_1/03_power_of_4.py
-python Lesson_04_Recursive_Problems_1/acp_flip_it_with_recursion.py
-```
-
-### Lesson 5
-```bash
-python Lesson_05_Recursive_Problems_2/01_stair_climb.py
-python Lesson_05_Recursive_Problems_2/02_balanced_parens.py
-python Lesson_05_Recursive_Problems_2/acp_stair_climb_and_brace_builder.py
-```
-
-### Lesson 6
-```bash
-python Lesson_06_Recursive_Problems_3/01_tower_of_hanoi.py
-python Lesson_06_Recursive_Problems_3/02_phone_keypad.py
-python Lesson_06_Recursive_Problems_3/03_recursion_tree.py
-python Lesson_06_Recursive_Problems_3/acp_keypad_word_generator.py
+python Array/01_mean_array_median.py
+python Array/02_max_array_min.py
+python Array/03_second_largest_element.py
+python Array/reverse_array.py
 ```
