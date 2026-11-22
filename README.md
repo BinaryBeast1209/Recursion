@@ -30,11 +30,16 @@ Recursion/
 │   │   ├── 02_move_zeros.py
 │   │   ├── 03_max_zeros.py
 │   │   └── acp_binary_streak_tracker.py
-│   └── Lesson_05_Kadane_Algorithm/
-│       ├── 01_max_mid.py
-│       ├── 02_max_front.py
-│       ├── 03_max_after.py
-│       └── acp_array_energy_tracker.py
+│   ├── Lesson_05_Kadane_Algorithm/
+│   │   ├── 01_max_mid.py
+│   │   ├── 02_max_front.py
+│   │   ├── 03_max_after.py
+│   │   └── acp_array_energy_tracker.py
+│   └── Lesson_06_Array_Problems_4/
+│       ├── 01_eq_mid.py
+│       ├── 02_eq_val.py
+│       ├── 03_win_sum.py
+│       └── acp_target_tracker_lab.py
 │
 ├── Lesson_01_Introduction_to_Recursion/
 │   ├── 01_sum_down.py
@@ -123,6 +128,15 @@ Recursion/
 | `03_max_after.py` | Activity 3 (Big Reset) | Maximum subarray sum in `[-n] + [1]*n`; large negative triggers immediate reset, then sums $n$ ones. |
 | `acp_array_energy_tracker.py` | ACP Project (Array Energy Tracker) | Subarray exploration, Kadane's algorithm, subarray slice tracking with indices, and diverse test cases. |
 
+### Lesson 6: Array Problems 4 (`Array/Lesson_06_Array_Problems_4/`)
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| `01_eq_mid.py` | Activity 1 (Equilibrium Index) | Finds index where left sum equals right sum using `sum(arr[:i]) == sum(arr[i+1:])`. |
+| `02_eq_val.py` | Activity 2 (Equilibrium Value) | Finds the value located at the equilibrium point in an array. |
+| `03_win_sum.py` | Activity 3 (Window Target Sum) | Finds the starting index of the first fixed-size window that sums to target. |
+| `acp_target_tracker_lab.py` | ACP Project (Target Tracker Lab) | Slices and balance analysis, equilibrium index, equilibrium value, fixed-size window search, and $O(n)$ sliding window optimization. |
+
 ---
 
 ## Recursion Module
@@ -197,4 +211,10 @@ python Array/Lesson_05_Kadane_Algorithm/01_max_mid.py
 python Array/Lesson_05_Kadane_Algorithm/02_max_front.py
 python Array/Lesson_05_Kadane_Algorithm/03_max_after.py
 python Array/Lesson_05_Kadane_Algorithm/acp_array_energy_tracker.py
+
+# Lesson 6
+python Array/Lesson_06_Array_Problems_4/01_eq_mid.py
+python Array/Lesson_06_Array_Problems_4/02_eq_val.py
+python Array/Lesson_06_Array_Problems_4/03_win_sum.py
+python Array/Lesson_06_Array_Problems_4/acp_target_tracker_lab.py
 ```
